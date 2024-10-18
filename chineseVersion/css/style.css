@@ -1,0 +1,198 @@
+.headLine{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.GameMap{
+    width: 1200px;
+    height: 900px;
+    background: #F8F8FF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.GameMapOuter{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.chessboard{
+    width: 723px;
+    height: 723px;
+    background: #F5F5F5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.scoreboard{
+    width: 300px;
+    height: 780px;
+    background: #DCDCDC;
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: start; */
+}
+h3{
+    line-height: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.chess{
+    height: 40px;
+    width: 40px;
+    border-width: 2.5px;
+    border-style: solid;
+    margin: 1.5px;
+    padding: 0px;
+    background: #FFDEAD;
+    border-color: #000000;
+}
+.chess:hover{
+    height: 40px;
+    width: 40px;
+    border-width: 2.5px;
+    border-style: solid;
+    margin: 1.5px;
+    padding: 0px;
+    background: #EEAD0E;
+    border-color: #000000;
+}
+.player{
+    width: 250px;
+    height: 200px;
+    background: #FFDEAD;
+    border-radius: 25px;
+    /* margin-top: 10px; */
+}
+.playerOuter{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.userImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.tip1{
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 15px;
+    margin-right: 50px;
+    display: block;
+}
+.tip2{
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 15px;
+    margin-right: 50px;
+    display: none;
+}
+.userImgBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.startButton{
+    width: 250px;
+    height: 80px;
+}
+.reloadButton{
+    width: 250px;
+    height: 80px;
+}
+.operatorPanel{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.howButton{
+    width: 250px;
+    height: 80px;
+}
+.buttonText{
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.model{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 20;    /*背景层*/
+    text-align: center;
+
+}
+.model:target{
+    display: block;
+}
+.innerModel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerModelTwo{
+    width: 800px;
+    height: auto;
+    text-align: start;
+    background: #FFDEAD;
+    border-radius: 15px;
+    margin: 5px,5px;
+}
+.innerModelTwoHead{
+    text-align: center;
+}
+.innerModelTwoBodyP{
+    text-indent: 2em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+.innerModelTwoBodyButtonOne{
+    text-align: center;
+    width: 400px;
+    height: auto;
+    background: #FFDEAD;
+    border-radius: 15px;
+}
+.innerModelTwoBodyButtonSecond{
+    text-align: center;
+    width: 400px;
+    height: auto;
+    background: #FFDEAD;
+    border-radius: 15px;
+}
+.innerModelTwoBodyButton{
+    display: flex;
+    justify-content: space-around;
+    /* border-top: 2px,solid,black; */
+}
+.innerModelTwoBodyButtonOne:hover{
+    text-align: center;
+    width: 400px;
+    height: auto;
+    background: #EEAD0E;
+}
+.innerModelTwoBodyButtonSecond:hover{
+    text-align: center;
+    width: 400px;
+    height: auto;
+    background: #EEAD0E;
+}
+.innerModelTwoBody{
+    width: auto;
+    height: auto;
+    margin: 15px;
+}
